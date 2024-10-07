@@ -1,0 +1,78 @@
+Tile	Output		Total no.	Total no.	avg. latency	avg. latency	average
+ID	channel		of packets	of flits	per packet	per flit	throughput
+							(clock cycles)	(clock cycles)	(Gbps)
+0	South		94		376		4.53191		1.13298		0
+0	East		0		0		0		0		0
+0	0		0		0		0		0
+1	South		0		0		0		0		0
+1	East		95		382		2.51579		0.625654		0
+1	West		94		376		2.2766		0.569149		0
+1	93		372		4		1		496
+2	South		95		380		2.17895		0.544737		0
+2	East		0		0		0		0		0
+2	West		94		376		2.24468		0.56117		0
+2	95		380		2		0.5		1520
+3	South		0		0		0		0		0
+3	West		95		382		2.32632		0.578534		0
+3	92		368		4		1		368
+4	North		0		0		0		0		0
+4	South		164		657		14.7805		3.6895		0
+4	East		0		0		0		0		0
+4	94		376		4		1		501.333
+5	North		93		374		4.2043		1.04545		0
+5	South		0		0		0		0		0
+5	East		76		306		20.3684		5.05882		0
+5	West		92		368		2.28261		0.570652		0
+5	95		380		4		1		760
+6	North		0		0		0		0		0
+6	South		167		670		12.4012		3.09104		0
+6	East		0		0		0		0		0
+6	West		92		369		2.28261		0.569106		0
+6	94		378		4		0.994709		-7560
+7	North		92		369		4.23913		1.05691		0
+7	South		0		0		0		0		0
+7	West		93		373		2.50538		0.624665		0
+7	95		381		2.27368		0.566929		-15240
+8	North		0		0		0		0		0
+8	South		91		364		4.6044		1.1511		0
+8	East		95		380		3.89474		0.973684		0
+8	72		290		3.97222		0.986207		-1657.14
+9	North		189		757		6.67196		1.66579		0
+9	South		0		0		0		0		0
+9	East		93		375		2.52688		0.626667		0
+9	West		0		0		0		0		0
+9	94		378		4		0.994709		-7560
+10	North		0		0		0		0		0
+10	South		92		368		4.54348		1.13587		0
+10	East		93		374		2.44086		0.606952		0
+10	West		95		383		2.50526		0.62141		0
+10	74		299		4		0.989967		-2990
+11	North		187		754		4.94652		1.22679		0
+11	South		0		0		0		0		0
+11	West		0		0		0		0		0
+11	90		360		4		1		480
+12	North		0		0		0		0		0
+12	East		95		382		2.50526		0.623037		0
+12	90		362		4		0.994475		1206.67
+13	North		95		380		2.50526		0.626316		0
+13	East		91		365		2.52747		0.630137		0
+13	West		0		0		0		0		0
+13	94		378		2		0.497355		0
+14	North		0		0		0		0		0
+14	East		91		364		2.48352		0.620879		0
+14	West		94		378		2.25532		0.560847		0
+14	91		367		4		0.991826		-2446.67
+15	North		90		362		4.01111		0.997238		0
+15	West		0		0		0		0		0
+15	0		0		0		0		0
+
+Overall average latency per channel (in clock cycles per flit) = 1.13619
+
+Overall average latency per channel(in clock cycles per packet) = 4.55858
+
+Overall total throughput is -2007.61
+
+Overall average latency (in clock cycles per flit) = 16.5927
+
+Total Flits Generated = 5152
+Total Flits Received = 5065

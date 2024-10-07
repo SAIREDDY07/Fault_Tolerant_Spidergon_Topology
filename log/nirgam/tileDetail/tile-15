@@ -1,0 +1,7 @@
+NumberBufferReads = 2351
+NumberBufferWrites = 1172
+NumberCrossbarTraversals = 1172
+NumberVCReads = 239
+NumberVCWrites = 232
+NumberArb = 1847
+NumberLinkTraversals = 1172

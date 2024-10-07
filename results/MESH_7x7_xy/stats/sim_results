@@ -1,0 +1,231 @@
+Tile	Output		Total no.	Total no.	avg. latency	avg. latency	average
+ID	channel		of packets	of flits	per packet	per flit	throughput
+							(clock cycles)	(clock cycles)	(Gbps)
+0	South		513		2052		5.94542		1.48635		0
+0	East		0		0		0		0		0
+0	0		0		0		0		0
+1	South		0		0		0		0		0
+1	East		0		0		0		0		0
+1	West		513		2052		17.7329		4.43324		0
+1	286		1144		4		1		2288
+2	South		0		0		0		0		0
+2	East		0		0		0		0		0
+2	West		507		2028		15.9625		3.99063		0
+2	286		1144		4		1		1144
+3	South		0		0		0		0		0
+3	East		0		0		0		0		0
+3	West		498		1992		19.1165		4.77912		0
+3	0		0		0		0		0
+4	South		0		0		0		0		0
+4	East		0		0		0		0		0
+4	West		494		1976		18.0891		4.52227		0
+4	0		0		0		0		0
+5	South		0		0		0		0		0
+5	East		0		0		0		0		0
+5	West		487		1948		17.2936		4.32341		0
+5	0		0		0		0		0
+6	South		0		0		0		0		0
+6	West		281		1124		2.74377		0.685943		0
+6	0		0		0		0		0
+7	North		0		0		0		0		0
+7	South		507		2028		6.96252		1.74063		0
+7	East		286		1144		2.5		0.625		0
+7	6		24		4		1		48
+8	North		286		1144		2.53497		0.633741		0
+8	South		508		2032		5.98031		1.49508		0
+8	East		0		0		0		0		0
+8	West		0		0		0		0		0
+8	0		0		0		0		0
+9	North		286		1144		4.3042		1.07605		0
+9	South		0		0		0		0		0
+9	East		0		0		0		0		0
+9	West		508		2032		17.8012		4.4503		0
+9	209		836		4		1		1672
+10	North		0		0		0		0		0
+10	South		0		0		0		0		0
+10	East		0		0		0		0		0
+10	West		503		2012		17.8429		4.46074		0
+10	0		0		0		0		0
+11	North		0		0		0		0		0
+11	South		0		0		0		0		0
+11	East		0		0		0		0		0
+11	West		498		1992		17.7369		4.43424		0
+11	0		0		0		0		0
+12	North		0		0		0		0		0
+12	South		0		0		0		0		0
+12	East		0		0		0		0		0
+12	West		493		1972		16.1237		4.03093		0
+12	0		0		0		0		0
+13	North		0		0		0		0		0
+13	South		0		0		0		0		0
+13	West		284		1136		2.51761		0.629401		0
+13	0		0		0		0		0
+14	North		0		0		0		0		0
+14	South		498		1992		4.99598		1.249		0
+14	East		286		1144		2.50699		0.626748		0
+14	9		36		4		1		36
+15	North		0		0		0		0		0
+15	South		503		2012		5		1.25		0
+15	East		495		1980		16.7192		4.1798		0
+15	West		0		0		0		0		0
+15	5		20		4		1		40
+16	North		495		1980		3.99596		0.99899		0
+16	South		0		0		0		0		0
+16	East		0		0		0		0		0
+16	West		0		0		0		0		0
+16	0		0		0		0		0
+17	North		0		0		0		0		0
+17	South		0		0		0		0		0
+17	East		0		0		0		0		0
+17	West		0		0		0		0		0
+17	0		0		0		0		0
+18	North		0		0		0		0		0
+18	South		0		0		0		0		0
+18	East		0		0		0		0		0
+18	West		0		0		0		0		0
+18	0		0		0		0		0
+19	North		0		0		0		0		0
+19	South		0		0		0		0		0
+19	East		0		0		0		0		0
+19	West		0		0		0		0		0
+19	0		0		0		0		0
+20	North		0		0		0		0		0
+20	South		0		0		0		0		0
+20	West		0		0		0		0		0
+20	0		0		0		0		0
+21	North		0		0		0		0		0
+21	South		494		1976		4.00202		1.00051		0
+21	East		0		0		0		0		0
+21	4		16		4		1		10.6667
+22	North		0		0		0		0		0
+22	South		498		1992		4		1		0
+22	East		0		0		0		0		0
+22	West		0		0		0		0		0
+22	5		20		4		1		20
+23	North		0		0		0		0		0
+23	South		0		0		0		0		0
+23	East		0		0		0		0		0
+23	West		0		0		0		0		0
+23	0		0		0		0		0
+24	North		0		0		0		0		0
+24	South		0		0		0		0		0
+24	East		0		0		0		0		0
+24	West		0		0		0		0		0
+24	0		0		0		0		0
+25	North		0		0		0		0		0
+25	South		0		0		0		0		0
+25	East		0		0		0		0		0
+25	West		0		0		0		0		0
+25	0		0		0		0		0
+26	North		0		0		0		0		0
+26	South		0		0		0		0		0
+26	East		0		0		0		0		0
+26	West		0		0		0		0		0
+26	0		0		0		0		0
+27	North		0		0		0		0		0
+27	South		0		0		0		0		0
+27	West		0		0		0		0		0
+27	0		0		0		0		0
+28	North		0		0		0		0		0
+28	South		487		1948		4.00205		1.00051		0
+28	East		0		0		0		0		0
+28	7		28		4		1		14
+29	North		0		0		0		0		0
+29	South		493		1972		4		1		0
+29	East		0		0		0		0		0
+29	West		0		0		0		0		0
+29	5		20		4		1		13.3333
+30	North		0		0		0		0		0
+30	South		0		0		0		0		0
+30	East		0		0		0		0		0
+30	West		0		0		0		0		0
+30	0		0		0		0		0
+31	North		0		0		0		0		0
+31	South		0		0		0		0		0
+31	East		0		0		0		0		0
+31	West		0		0		0		0		0
+31	0		0		0		0		0
+32	North		0		0		0		0		0
+32	South		0		0		0		0		0
+32	East		0		0		0		0		0
+32	West		0		0		0		0		0
+32	0		0		0		0		0
+33	North		0		0		0		0		0
+33	South		0		0		0		0		0
+33	East		0		0		0		0		0
+33	West		0		0		0		0		0
+33	0		0		0		0		0
+34	North		0		0		0		0		0
+34	South		0		0		0		0		0
+34	West		0		0		0		0		0
+34	0		0		0		0		0
+35	North		0		0		0		0		0
+35	South		281		1124		4.84342		1.21085		0
+35	East		0		0		0		0		0
+35	206		824		4		1		329.6
+36	North		0		0		0		0		0
+36	South		284		1136		4.05634		1.01408		0
+36	East		0		0		0		0		0
+36	West		0		0		0		0		0
+36	209		836		4		1		418
+37	North		0		0		0		0		0
+37	South		0		0		0		0		0
+37	East		0		0		0		0		0
+37	West		0		0		0		0		0
+37	0		0		0		0		0
+38	North		0		0		0		0		0
+38	South		0		0		0		0		0
+38	East		0		0		0		0		0
+38	West		0		0		0		0		0
+38	0		0		0		0		0
+39	North		0		0		0		0		0
+39	South		0		0		0		0		0
+39	East		0		0		0		0		0
+39	West		0		0		0		0		0
+39	0		0		0		0		0
+40	North		0		0		0		0		0
+40	South		0		0		0		0		0
+40	East		0		0		0		0		0
+40	West		0		0		0		0		0
+40	0		0		0		0		0
+41	North		0		0		0		0		0
+41	South		0		0		0		0		0
+41	West		0		0		0		0		0
+41	0		0		0		0		0
+42	North		0		0		0		0		0
+42	East		0		0		0		0		0
+42	281		1124		4		1		374.667
+43	North		0		0		0		0		0
+43	East		0		0		0		0		0
+43	West		0		0		0		0		0
+43	284		1136		4		1		454.4
+44	North		0		0		0		0		0
+44	East		0		0		0		0		0
+44	West		0		0		0		0		0
+44	0		0		0		0		0
+45	North		0		0		0		0		0
+45	East		0		0		0		0		0
+45	West		0		0		0		0		0
+45	0		0		0		0		0
+46	North		0		0		0		0		0
+46	East		0		0		0		0		0
+46	West		0		0		0		0		0
+46	0		0		0		0		0
+47	North		0		0		0		0		0
+47	East		0		0		0		0		0
+47	West		0		0		0		0		0
+47	0		0		0		0		0
+48	North		0		0		0		0		0
+48	West		0		0		0		0		0
+48	0		0		0		0		0
+
+Overall average latency per channel (in clock cycles per flit) = 2.24318
+
+Overall average latency per channel(in clock cycles per packet) = 8.9727
+
+Overall total throughput is 140.054
+
+Overall average latency (in clock cycles per flit) = 81.1809
+
+Total Flits Generated = 7208
+Total Flits Received = 7208

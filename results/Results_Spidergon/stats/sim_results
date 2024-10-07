@@ -1,0 +1,78 @@
+Tile	Output		Total no.	Total no.	avg. latency	avg. latency	average
+ID	channel		of packets	of flits	per packet	per flit	throughput
+							(clock cycles)	(clock cycles)	(Gbps)
+0	North		0		0		0		0		0
+0	South		0		0		0		0		0
+0	East		0		0		0		0		0
+0	0		0		0		0		0
+1	North		0		0		0		0		0
+1	South		0		0		0		0		0
+1	East		0		0		0		0		0
+1	288		1152		2.44444		0.611111		1920
+2	North		0		0		0		0		0
+2	South		0		0		0		0		0
+2	East		0		0		0		0		0
+2	284		1136		2.72887		0.682218		946.667
+3	North		0		0		0		0		0
+3	South		0		0		0		0		0
+3	East		0		0		0		0		0
+3	286		1144		2.47552		0.618881		635.556
+4	North		0		0		0		0		0
+4	South		0		0		0		0		0
+4	East		1421		5684		6.99367		1.74842		0
+4	0		0		0		0		0
+5	North		1420		5682		6.99085		1.7471		0
+5	South		0		0		0		0		0
+5	East		0		0		0		0		0
+5	0		0		0		0		0
+6	North		0		0		0		0		0
+6	South		0		0		0		0		0
+6	East		0		0		0		0		0
+6	284		1136		2.49648		0.62412		2065.45
+7	North		0		0		0		0		0
+7	South		0		0		0		0		0
+7	East		0		0		0		0		0
+7	285		1140		2.55789		0.639474		950
+8	North		0		0		0		0		0
+8	South		0		0		0		0		0
+8	East		4		16		3.5		0.875		0
+8	0		0		0		0		0
+9	North		0		0		0		0		0
+9	South		0		0		0		0		0
+9	East		5		20		7.4		1.85		0
+9	0		0		0		0		0
+10	North		3		12		5.33333		1.33333		0
+10	South		0		0		0		0		0
+10	East		0		0		0		0		0
+10	0		0		0		0		0
+11	North		0		0		0		0		0
+11	South		0		0		0		0		0
+11	East		0		0		0		0		0
+11	284		1136		2.59859		0.649648		2065.45
+12	North		0		0		0		0		0
+12	South		0		0		0		0		0
+12	East		4		16		2.5		0.625		0
+12	0		0		0		0		0
+13	North		0		0		0		0		0
+13	South		0		0		0		0		0
+13	East		5		20		3		0.75		0
+13	0		0		0		0		0
+14	North		0		0		0		0		0
+14	South		0		0		0		0		0
+14	East		4		16		4.25		1.0625		0
+14	0		0		0		0		0
+15	North		2		8		3		0.75		0
+15	South		0		0		0		0		0
+15	East		0		0		0		0		0
+15	0		0		0		0		0
+
+Overall average latency per channel (in clock cycles per flit) = 1.32891
+
+Overall average latency per channel(in clock cycles per packet) = 5.31623
+
+Overall total throughput is 536.446
+
+Overall average latency (in clock cycles per flit) = 2.77499
+
+Total Flits Generated = 6974
+Total Flits Received = 6844

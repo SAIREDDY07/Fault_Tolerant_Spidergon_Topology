@@ -1,0 +1,10 @@
+#!/bin/bash
+
+vi tile-0
+let "i = 1";
+while [ $i -lt 27 ]
+do
+	cp tile-0 tile-$i;
+	echo $i
+	let "i += 1";
+done

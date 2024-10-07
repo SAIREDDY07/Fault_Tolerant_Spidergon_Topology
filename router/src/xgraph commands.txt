@@ -1,0 +1,2 @@
+xgraph -t 'Bursty Traffic' -x 'Load' -y 'Averag Latency' -0 3D\-PROM -1 ZXY -2 XYZ ./Results/Bursty/PROM3D.dat ./Results/Bursty/ZXY.dat ./Results/Bursty/XYZ.dat  -bb
+xgraph -t 'CBR Traffic' -x 'Load' -y 'Averag Latency' -0 3D\-PROM -1 ZXY -2 XYZ ./Results/CBR/PROM3D.dat ./Results/CBR/ZXY.dat ./Results/CBR/XYZ.dat  -bb

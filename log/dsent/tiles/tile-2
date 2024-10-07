@@ -1,0 +1,3 @@
+NumberBufferReads = 10850022
+NumberBufferWrites = 10770876
+NumberCrossbarTraversals = 992

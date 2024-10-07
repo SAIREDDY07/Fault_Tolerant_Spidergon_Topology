@@ -1,0 +1,17 @@
+
+Before starting make sure whether below line is added in your bashrc file, If not, add then
+
+	export SC_SIGNAL_WRITE_CHECK=DISABLE
+	
+(You can access bashrc file from terminal using "nano ~/.bashrc" command)
+
+
+From nirgam directory(3Dnirgam-3.0), run below commands:
+	make clean
+	make
+	./nirgam
+
+Go to ./Script, run:
+	python powEstDsent.py
+
+Go to ../log/dsent/results/dirName to check the power results.

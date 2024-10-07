@@ -1,0 +1,14 @@
+Tile	Output		Total no.	Total no.	avg. latency	avg. latency	average
+ID	channel		of packets	of flits	per packet	per flit	throughput
+							(clock cycles)	(clock cycles)	(Gbps)
+
+Overall average latency per channel (in clock cycles per flit) = 3.24452
+
+Overall average latency per channel(in clock cycles per packet) = 12.9837
+
+Overall total throughput is 0
+
+Overall average latency (in clock cycles per flit) = 5.36517
+
+Total Flits Generated = 704
+Total Flits Received = 356
