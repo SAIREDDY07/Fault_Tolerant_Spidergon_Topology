@@ -1,0 +1,303 @@
+Determining if the __LP64__ exist failed with the following output:
+Change Dir: /home/sai/Desktop/#Nirgam_Spidergon_final/systemc-2.3.3/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_21468/fast"
+/usr/bin/make -f CMakeFiles/cmTC_21468.dir/build.make CMakeFiles/cmTC_21468.dir/build
+make[1]: Entering directory '/home/sai/Desktop/#Nirgam_Spidergon_final/systemc-2.3.3/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_21468.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_21468.dir/CheckSymbolExists.c.o   -c "/home/sai/Desktop/#Nirgam_Spidergon_final/systemc-2.3.3/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c"
+/home/sai/Desktop/#Nirgam_Spidergon_final/systemc-2.3.3/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/sai/Desktop/#Nirgam_Spidergon_final/systemc-2.3.3/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:7:19: error: ‘__LP64__’ undeclared (first use in this function); did you mean ‘__LINE__’?
+   return ((int*)(&__LP64__))[argc];
+                   ^~~~~~~~
+                   __LINE__
+/home/sai/Desktop/#Nirgam_Spidergon_final/systemc-2.3.3/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:7:19: note: each undeclared identifier is reported only once for each function it appears in
+CMakeFiles/cmTC_21468.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_21468.dir/CheckSymbolExists.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_21468.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory '/home/sai/Desktop/#Nirgam_Spidergon_final/systemc-2.3.3/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_21468/fast' failed
+make: *** [cmTC_21468/fast] Error 2
+
+File /home/sai/Desktop/#Nirgam_Spidergon_final/systemc-2.3.3/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef __LP64__
+  return ((int*)(&__LP64__))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the __sparc exist failed with the following output:
+Change Dir: /home/sai/Desktop/#Nirgam_Spidergon_final/systemc-2.3.3/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e4a57/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e4a57.dir/build.make CMakeFiles/cmTC_e4a57.dir/build
+make[1]: Entering directory '/home/sai/Desktop/#Nirgam_Spidergon_final/systemc-2.3.3/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e4a57.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_e4a57.dir/CheckSymbolExists.c.o   -c "/home/sai/Desktop/#Nirgam_Spidergon_final/systemc-2.3.3/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c"
+/home/sai/Desktop/#Nirgam_Spidergon_final/systemc-2.3.3/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/sai/Desktop/#Nirgam_Spidergon_final/systemc-2.3.3/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:7:19: error: ‘__sparc’ undeclared (first use in this function)
+   return ((int*)(&__sparc))[argc];
+                   ^~~~~~~
+/home/sai/Desktop/#Nirgam_Spidergon_final/systemc-2.3.3/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:7:19: note: each undeclared identifier is reported only once for each function it appears in
+CMakeFiles/cmTC_e4a57.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_e4a57.dir/CheckSymbolExists.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_e4a57.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory '/home/sai/Desktop/#Nirgam_Spidergon_final/systemc-2.3.3/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_e4a57/fast' failed
+make: *** [cmTC_e4a57/fast] Error 2
+
+File /home/sai/Desktop/#Nirgam_Spidergon_final/systemc-2.3.3/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef __sparc
+  return ((int*)(&__sparc))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the __sparc__ exist failed with the following output:
+Change Dir: /home/sai/Desktop/#Nirgam_Spidergon_final/systemc-2.3.3/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_db3ea/fast"
+/usr/bin/make -f CMakeFiles/cmTC_db3ea.dir/build.make CMakeFiles/cmTC_db3ea.dir/build
+make[1]: Entering directory '/home/sai/Desktop/#Nirgam_Spidergon_final/systemc-2.3.3/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_db3ea.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_db3ea.dir/CheckSymbolExists.c.o   -c "/home/sai/Desktop/#Nirgam_Spidergon_final/systemc-2.3.3/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c"
+/home/sai/Desktop/#Nirgam_Spidergon_final/systemc-2.3.3/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/sai/Desktop/#Nirgam_Spidergon_final/systemc-2.3.3/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:7:19: error: ‘__sparc__’ undeclared (first use in this function); did you mean ‘__pic__’?
+   return ((int*)(&__sparc__))[argc];
+                   ^~~~~~~~~
+                   __pic__
+/home/sai/Desktop/#Nirgam_Spidergon_final/systemc-2.3.3/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:7:19: note: each undeclared identifier is reported only once for each function it appears in
+CMakeFiles/cmTC_db3ea.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_db3ea.dir/CheckSymbolExists.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_db3ea.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory '/home/sai/Desktop/#Nirgam_Spidergon_final/systemc-2.3.3/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_db3ea/fast' failed
+make: *** [cmTC_db3ea/fast] Error 2
+
+File /home/sai/Desktop/#Nirgam_Spidergon_final/systemc-2.3.3/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef __sparc__
+  return ((int*)(&__sparc__))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the __hppa exist failed with the following output:
+Change Dir: /home/sai/Desktop/#Nirgam_Spidergon_final/systemc-2.3.3/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_16611/fast"
+/usr/bin/make -f CMakeFiles/cmTC_16611.dir/build.make CMakeFiles/cmTC_16611.dir/build
+make[1]: Entering directory '/home/sai/Desktop/#Nirgam_Spidergon_final/systemc-2.3.3/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_16611.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_16611.dir/CheckSymbolExists.c.o   -c "/home/sai/Desktop/#Nirgam_Spidergon_final/systemc-2.3.3/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c"
+/home/sai/Desktop/#Nirgam_Spidergon_final/systemc-2.3.3/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/sai/Desktop/#Nirgam_Spidergon_final/systemc-2.3.3/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:7:19: error: ‘__hppa’ undeclared (first use in this function)
+   return ((int*)(&__hppa))[argc];
+                   ^~~~~~
+/home/sai/Desktop/#Nirgam_Spidergon_final/systemc-2.3.3/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:7:19: note: each undeclared identifier is reported only once for each function it appears in
+CMakeFiles/cmTC_16611.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_16611.dir/CheckSymbolExists.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_16611.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory '/home/sai/Desktop/#Nirgam_Spidergon_final/systemc-2.3.3/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_16611/fast' failed
+make: *** [cmTC_16611/fast] Error 2
+
+File /home/sai/Desktop/#Nirgam_Spidergon_final/systemc-2.3.3/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef __hppa
+  return ((int*)(&__hppa))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the __x86_64__ exist failed with the following output:
+Change Dir: /home/sai/Desktop/#Nirgam_Spidergon_final/systemc-2.3.3/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_244cd/fast"
+/usr/bin/make -f CMakeFiles/cmTC_244cd.dir/build.make CMakeFiles/cmTC_244cd.dir/build
+make[1]: Entering directory '/home/sai/Desktop/#Nirgam_Spidergon_final/systemc-2.3.3/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_244cd.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_244cd.dir/CheckSymbolExists.c.o   -c "/home/sai/Desktop/#Nirgam_Spidergon_final/systemc-2.3.3/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c"
+/home/sai/Desktop/#Nirgam_Spidergon_final/systemc-2.3.3/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/sai/Desktop/#Nirgam_Spidergon_final/systemc-2.3.3/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:7:19: error: ‘__x86_64__’ undeclared (first use in this function); did you mean ‘__i686__’?
+   return ((int*)(&__x86_64__))[argc];
+                   ^~~~~~~~~~
+                   __i686__
+/home/sai/Desktop/#Nirgam_Spidergon_final/systemc-2.3.3/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:7:19: note: each undeclared identifier is reported only once for each function it appears in
+CMakeFiles/cmTC_244cd.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_244cd.dir/CheckSymbolExists.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_244cd.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory '/home/sai/Desktop/#Nirgam_Spidergon_final/systemc-2.3.3/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_244cd/fast' failed
+make: *** [cmTC_244cd/fast] Error 2
+
+File /home/sai/Desktop/#Nirgam_Spidergon_final/systemc-2.3.3/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef __x86_64__
+  return ((int*)(&__x86_64__))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the __aarch64__ exist failed with the following output:
+Change Dir: /home/sai/Desktop/#Nirgam_Spidergon_final/systemc-2.3.3/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ce8c4/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ce8c4.dir/build.make CMakeFiles/cmTC_ce8c4.dir/build
+make[1]: Entering directory '/home/sai/Desktop/#Nirgam_Spidergon_final/systemc-2.3.3/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ce8c4.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_ce8c4.dir/CheckSymbolExists.c.o   -c "/home/sai/Desktop/#Nirgam_Spidergon_final/systemc-2.3.3/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c"
+/home/sai/Desktop/#Nirgam_Spidergon_final/systemc-2.3.3/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/sai/Desktop/#Nirgam_Spidergon_final/systemc-2.3.3/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:7:19: error: ‘__aarch64__’ undeclared (first use in this function)
+   return ((int*)(&__aarch64__))[argc];
+                   ^~~~~~~~~~~
+/home/sai/Desktop/#Nirgam_Spidergon_final/systemc-2.3.3/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:7:19: note: each undeclared identifier is reported only once for each function it appears in
+CMakeFiles/cmTC_ce8c4.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_ce8c4.dir/CheckSymbolExists.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_ce8c4.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory '/home/sai/Desktop/#Nirgam_Spidergon_final/systemc-2.3.3/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_ce8c4/fast' failed
+make: *** [cmTC_ce8c4/fast] Error 2
+
+File /home/sai/Desktop/#Nirgam_Spidergon_final/systemc-2.3.3/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef __aarch64__
+  return ((int*)(&__aarch64__))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the __ppc__ exist failed with the following output:
+Change Dir: /home/sai/Desktop/#Nirgam_Spidergon_final/systemc-2.3.3/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_027d6/fast"
+/usr/bin/make -f CMakeFiles/cmTC_027d6.dir/build.make CMakeFiles/cmTC_027d6.dir/build
+make[1]: Entering directory '/home/sai/Desktop/#Nirgam_Spidergon_final/systemc-2.3.3/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_027d6.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_027d6.dir/CheckSymbolExists.c.o   -c "/home/sai/Desktop/#Nirgam_Spidergon_final/systemc-2.3.3/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c"
+/home/sai/Desktop/#Nirgam_Spidergon_final/systemc-2.3.3/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/sai/Desktop/#Nirgam_Spidergon_final/systemc-2.3.3/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:7:19: error: ‘__ppc__’ undeclared (first use in this function); did you mean ‘__pic__’?
+   return ((int*)(&__ppc__))[argc];
+                   ^~~~~~~
+                   __pic__
+/home/sai/Desktop/#Nirgam_Spidergon_final/systemc-2.3.3/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:7:19: note: each undeclared identifier is reported only once for each function it appears in
+CMakeFiles/cmTC_027d6.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_027d6.dir/CheckSymbolExists.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_027d6.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory '/home/sai/Desktop/#Nirgam_Spidergon_final/systemc-2.3.3/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_027d6/fast' failed
+make: *** [cmTC_027d6/fast] Error 2
+
+File /home/sai/Desktop/#Nirgam_Spidergon_final/systemc-2.3.3/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef __ppc__
+  return ((int*)(&__ppc__))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the __powerpc exist failed with the following output:
+Change Dir: /home/sai/Desktop/#Nirgam_Spidergon_final/systemc-2.3.3/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1e54b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1e54b.dir/build.make CMakeFiles/cmTC_1e54b.dir/build
+make[1]: Entering directory '/home/sai/Desktop/#Nirgam_Spidergon_final/systemc-2.3.3/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1e54b.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_1e54b.dir/CheckSymbolExists.c.o   -c "/home/sai/Desktop/#Nirgam_Spidergon_final/systemc-2.3.3/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c"
+/home/sai/Desktop/#Nirgam_Spidergon_final/systemc-2.3.3/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/sai/Desktop/#Nirgam_Spidergon_final/systemc-2.3.3/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:7:19: error: ‘__powerpc’ undeclared (first use in this function)
+   return ((int*)(&__powerpc))[argc];
+                   ^~~~~~~~~
+/home/sai/Desktop/#Nirgam_Spidergon_final/systemc-2.3.3/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:7:19: note: each undeclared identifier is reported only once for each function it appears in
+CMakeFiles/cmTC_1e54b.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_1e54b.dir/CheckSymbolExists.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_1e54b.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory '/home/sai/Desktop/#Nirgam_Spidergon_final/systemc-2.3.3/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_1e54b/fast' failed
+make: *** [cmTC_1e54b/fast] Error 2
+
+File /home/sai/Desktop/#Nirgam_Spidergon_final/systemc-2.3.3/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef __powerpc
+  return ((int*)(&__powerpc))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/sai/Desktop/#Nirgam_Spidergon_final/systemc-2.3.3/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f3818/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f3818.dir/build.make CMakeFiles/cmTC_f3818.dir/build
+make[1]: Entering directory '/home/sai/Desktop/#Nirgam_Spidergon_final/systemc-2.3.3/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f3818.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_f3818.dir/CheckSymbolExists.c.o   -c "/home/sai/Desktop/#Nirgam_Spidergon_final/systemc-2.3.3/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c"
+Linking C executable cmTC_f3818
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f3818.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_f3818.dir/CheckSymbolExists.c.o  -o cmTC_f3818 
+CMakeFiles/cmTC_f3818.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x15): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_f3818.dir/build.make:97: recipe for target 'cmTC_f3818' failed
+make[1]: *** [cmTC_f3818] Error 1
+make[1]: Leaving directory '/home/sai/Desktop/#Nirgam_Spidergon_final/systemc-2.3.3/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_f3818/fast' failed
+make: *** [cmTC_f3818/fast] Error 2
+
+File /home/sai/Desktop/#Nirgam_Spidergon_final/systemc-2.3.3/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
